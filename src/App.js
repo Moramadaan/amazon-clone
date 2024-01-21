@@ -1,10 +1,16 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import NavBar from "./components/head/NavBar";
+import HeroBar from "./components/hero/HeroBar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+   <div className="font-bodyFont">
+    <NavBar/>
+    <HeroBar />
+    <Footer />
+   </div>
   );
 }
 
