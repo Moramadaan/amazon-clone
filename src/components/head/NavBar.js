@@ -10,7 +10,7 @@ const NavBar = () => {
     const [showAll, setShowAll]=useState(false)
     
   return (
-    <div >
+    <div className="w-full sticky top-0 z-50">
       <div className="w-full bg-amazon_blue text-textWhite px-4 py-3 flex items-center gap-4">
         
         {/*===== logo  =====*/}

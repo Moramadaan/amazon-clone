@@ -1,9 +1,10 @@
 import React from 'react'
+import BackToTopButton from './BackToTopButton'
 
 const FooterTop = () => {
   return (
     <div className="w-full bg-white py-6">
-      <div className="w-full border-t-[1px] border-b-[1px] py-8">
+      <div className="w-full border-t-[1px] border-b-[2px] py-8">
         <div className="w-64 mx-auto text-center flex flex-col gap-1">
           <p className="text-sm">See Personalised recommendations</p>
           <button className="w-full bg-yellow-400 rounded-md py-1 font-semibold cursor-pointer hover:bg-yellow-500 active:bg-yellow-700">
@@ -17,7 +18,10 @@ const FooterTop = () => {
           </p>
         </div>
       </div>
+      < BackToTopButton />
+      
     </div>
+    
   )
 }
 
